@@ -18,6 +18,11 @@ This project uses the [Movies Dataset from Kaggle](https://www.kaggle.com/datase
 - `movies_metadata.csv` — Movie information and overviews  
 - `links.csv` — Mapping between MovieLens IDs and TMDB IDs  
 
+> **Note:** Due to GitHub’s file size limit (100 MB), `ratings.csv` is not included in this repository.  
+> To run the notebook successfully:
+> 1. Download the full dataset from Kaggle: [Click here](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset)
+> 2. Place the `ratings.csv` file inside the `Data/` folder manually.
+
 ---
 
 ## 🧠 Recommendation Techniques
@@ -57,5 +62,3 @@ This project uses the [Movies Dataset from Kaggle](https://www.kaggle.com/datase
 The system generates:
 - **Top 10 recommendations** for a sample user
 - **Bar plots** visualizing predicted ratings and hybrid scores
-
----
